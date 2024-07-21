@@ -30,8 +30,8 @@ const Hero = () => {
 
   return (
     <div className='w-full min-h-[90vh] relative'>
-        <button className='fixed bottom-5 right-5 p-6 text-lg shadow-lg rounded-full' onClick={() => setOpenBox(true)}>
-            <span><FiPlus /></span>
+        <button className='fixed bottom-5 right-10 p-6 text-lg shadow-lg rounded-full bg-blue-500' onClick={() => setOpenBox(true)}>
+            <span className='text-white text-xl font-bold'><FiPlus /></span>
         </button>
 
         <div className='p-10 flex flex-wrap gap-10'>

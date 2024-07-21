@@ -6,6 +6,7 @@ import { FaUser } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [type, setType] = useState('lost');
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -17,8 +18,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-7">
               <span className="flex items-center py-4 px-2 cursor-pointer">
-                <span className="font-semibold  text-lg">Lost</span>
-               
+                <span className={`font-semibold text-lg ${type == 'lost' ? 'border-b-4 border-red-400' : ''}`}>Lost</span>
               </span>
               <span className="flex items-center py-4 px-2 cursor-pointer">
                 <span className="font-semibold  text-lg">Found</span>
