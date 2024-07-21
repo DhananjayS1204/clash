@@ -36,8 +36,8 @@ const Hero = () => {
 
         <div className='p-10 flex flex-wrap gap-10'>
 
-            <Card item={{name: 'Keys', place: 'Indore', descitpion: 'lskdjlskdjf', date: '7 Nov'}} image='/keys.jpeg' />
-            <Card item={{name: 'Keys', place: 'Indore', descitpion: 'lskdjlskdjf', date: '7 Nov'}} image='/keys.jpeg' />
+            <Card item={{name: 'Keys', place: 'Indore', descitpion: 'keys with code 423l65', date: '21 july'}} image='/keys.jpeg' />
+            <Card item={{name: 'pen', place: 'mumbai', descitpion: 'black hauser ball pen ', date: '20 july'}} image='/keys.jpeg' />
             <Card item={{name: 'Keys', place: 'Indore', descitpion: 'lskdjlskdjf', date: '7 Nov'}} image='/keys.jpeg' />
             <Card item={{name: 'Keys', place: 'Indore', descitpion: 'lskdjlskdjf', date: '7 Nov'}} image='/keys.jpeg' />
             <Card item={{name: 'Keys', place: 'Indore', descitpion: 'lskdjlskdjf', date: '7 Nov'}} image='/keys.jpeg' />
